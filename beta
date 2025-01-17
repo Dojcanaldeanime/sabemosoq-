@@ -2196,8 +2196,8 @@ local screenWidth, screenHeight = ScreenSize.X, ScreenSize.Y
 
 
 -- Usando uma porcentagem da tela para manter o layout responsivo
-local width = screenWidth * 0.3  -- 30% da largura da tela
-local height = screenHeight * 0.4  -- 40% da altura da tela
+local width = screenWidth * 0.7  -- 30% da largura da tela
+local height = screenHeight * 0.8  -- 40% da altura da tela
 
 -- Criando a interface com as dimensões adaptáveis
 local Windown = library.Create({
